@@ -1,0 +1,28 @@
+.navBar 
+{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem var(--leftRightPadding);
+}
+
+.mainLogo
+{
+    font-size: 2rem;
+}
+
+.navLinks a
+{
+    text-transform: uppercase;
+    color: var(--lightBlackColor);
+}
+.navLinks a:hover 
+{
+    color: var(--blackColor);
+}
+.hamBurgerMenu
+{
+    cursor: pointer;
+}

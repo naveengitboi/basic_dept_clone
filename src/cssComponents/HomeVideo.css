@@ -1,0 +1,12 @@
+.homeVideo 
+{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.videoPlayer{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
