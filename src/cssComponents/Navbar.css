@@ -6,17 +6,20 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem var(--leftRightPadding);
+    transition: all 0.25s ease;
 }
 
 .mainLogo
 {
     font-size: 2rem;
+    color: white;
 }
 
 .navLinks a
 {
     text-transform: uppercase;
     color: var(--lightBlackColor);
+    color: white;
 }
 .navLinks a:hover 
 {
@@ -25,4 +28,14 @@
 .hamBurgerMenu
 {
     cursor: pointer;
+    color: white;
+}
+.addNavbarBg
+{
+    /* background-color: var(--whiteColor); */
+    background-color: var(--whiteColor);
+}
+.addNavbarBg .mainLogo, .addNavbarBg .navLinks a, .addNavbarBg .hamBurgerMenu
+{
+    color: inherit;
 }

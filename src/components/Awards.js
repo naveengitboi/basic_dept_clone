@@ -1,8 +1,8 @@
 import React from 'react'
-
+import '../cssComponents/Awards.css'
 function Awards() {
   return (
-    <div>Awards</div>
+    <div className='awardsSection'>Awards</div>
   )
 }
 
