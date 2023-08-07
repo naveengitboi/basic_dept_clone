@@ -5,12 +5,11 @@ import {BsThreeDots} from 'react-icons/bs'
 import { useState } from 'react'
 function Navbar() {
   const [scroll, setScroll] = useState(false)
-  console.log(scroll)
+
 
   const scrollHandler = () => {
     if(window.scrollY >= 60){
       setScroll(true)
-      console.log(window.scrollY)
     }
     else{
       setScroll(false)

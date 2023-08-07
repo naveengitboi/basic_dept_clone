@@ -7,6 +7,7 @@
     align-items: center;
     padding: 2rem var(--leftRightPadding);
     transition: all 0.25s ease;
+    z-index: 5;
 }
 
 .mainLogo

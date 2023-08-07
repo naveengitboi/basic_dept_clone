@@ -29,7 +29,7 @@
   }
     @font-face {
     font-family: tinyFontFam;
-    src: url('/src/Fonts/styleFont/tooLight.ttf');
+    src: url('/src/Fonts/styleFont/light.otf');
   }
 
  
@@ -54,7 +54,7 @@ body
   --headings:2rem;
   --mediumPara:1.5rem;
   --smallPara:1rem;
-  --tinyTexts:0.5rem;
+  --tinyTexts:0.85rem;
 
   --styleTexts:2.5rem;
 
