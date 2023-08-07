@@ -46,10 +46,29 @@ body
   overflow-x: hidden;
   background-color: var(--whiteColor);
 }
+body::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: black;
+  border-radius: 12px;
+}
+body::-webkit-scrollbar-thumb
+{
+  width: 12px;
+  background-color: white;
+  border-radius: 12px;
+}
+.horizontalLine
+{
+  margin: 1rem var(--leftRightPadding);
+  width: auto;
+  height: 1px;
+  background-color: var(--lightBlackColor);
+}
 :root
 {
   /* fontsizes */
-  --hugeHeading:5rem;
+  --hugeHeading:15rem;
   --bigHeading:3rem;
   --headings:2rem;
   --mediumPara:1.5rem;
@@ -85,6 +104,7 @@ body
   font-family: headingsFont;
   font-size: var(--headings);
   font-weight: bold;
+  color: var(--blackColor);
 }
 .mediumPara
 {
@@ -154,3 +174,20 @@ svg
   font-size: 1.85rem;
 }
 
+.buttonLink 
+{
+  padding: 0.5rem 1.25rem;
+  border: 1px solid var(--noiseBlackColor);
+  border-radius: 1rem;
+  text-transform: uppercase;
+  margin: 0.25rem 0;
+  transition: all 0.25s ease;
+}
+
+.buttonLink:hover 
+{
+  background-color: var(--noiseBlackColor);
+  color: var(--whiteColor);
+  cursor: pointer;
+
+}

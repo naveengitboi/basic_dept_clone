@@ -1,0 +1,39 @@
+.workPage 
+{
+    padding: 0rem var(--leftRightPadding);
+    /* border: 1px solid red; */
+}
+
+
+.workInfoContainer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.workInfo
+{
+    width: 50%;
+}
+.workInfo p 
+{
+    margin-bottom: 3rem;
+}
+.hugeHeadingClass
+{
+    display: flex;
+    align-items: center;
+}
+.rIcon
+{
+    border: 10px solid var(--noiseBlackColor);
+    border-radius: 50%;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+
+}
