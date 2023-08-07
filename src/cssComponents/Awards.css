@@ -1,4 +1,45 @@
 .awardsSection
 {
-    height: 100vh;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 13rem;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.award
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* border: 2px solid rebeccapurple; */
+    height: 350px;
+    padding: 2rem;
+}
+.award img 
+{
+    width: 250px;
+    overflow: hidden;
+    transition: all 0.5s ease ;
+    mix-blend-mode: color-burn;
+}
+.award .smallPara 
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 2rem 0;
+    margin-top: auto;
+    /* border: 1px solid red; */
+
+}
+
+.award:hover img   
+{
+    cursor: pointer;
+    scale: 1.02;
+}
+.award:hover .smallPara
+{
+    text-decoration: underline;
 }
