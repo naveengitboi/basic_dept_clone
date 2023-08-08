@@ -37,3 +37,42 @@
     height: 150px;
 
 }
+
+.works
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 2rem 0;
+
+}
+.worksImageContainer 
+{
+    width: 100%;
+
+    margin:0 1rem;
+}
+.imageContainer
+{
+    height: 550px;
+    /* aspect-ratio: 3/4; */
+    overflow: hidden;
+}
+
+.imageContainer img 
+{
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.25s ease;
+}
+.imageContainer:hover img
+{
+    transform: scale(1.04);
+}
+
+.workContent .mediumPara
+{
+    text-transform: uppercase;
+    margin: 0.75rem 0 0.25rem;
+}
+

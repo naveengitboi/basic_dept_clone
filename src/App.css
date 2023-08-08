@@ -71,7 +71,7 @@ body::-webkit-scrollbar-thumb
   --hugeHeading:15rem;
   --bigHeading:3rem;
   --headings:2rem;
-  --mediumPara:1.5rem;
+  --mediumPara:1.6rem;
   --smallPara:1rem;
   --tinyTexts:0.85rem;
 
@@ -115,6 +115,8 @@ body::-webkit-scrollbar-thumb
 {
   font-family: smallParaFontFam;
   font-size: var(--smallPara);
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .tinyTexts
