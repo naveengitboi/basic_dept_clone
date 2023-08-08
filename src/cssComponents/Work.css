@@ -43,7 +43,8 @@
     display: flex;
     justify-content: space-between;
     padding: 0;
-    margin: 2rem 0;
+    margin: 2rem 0 10rem;
+    /* border: 2px solid red; */
 
 }
 .worksImageContainer 

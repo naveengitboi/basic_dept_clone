@@ -1,0 +1,62 @@
+.featuredContent
+{
+
+    padding: 2rem var(--leftRightPadding);
+}
+
+.horizontalDragSection
+{
+    width: 100vw;
+    /* height: 50vh; */
+    /* border: 2px solid red; */
+    display: flex;
+    overflow-x: scroll;
+    /* height: 400px; */
+    margin: 5rem 0;
+    padding: 0rem var(--leftRightPadding);
+  
+}
+.horizontalDragSection::-webkit-scrollbar
+{
+    height: 5px;
+    width: 50%;
+    margin: 2rem 0;
+}
+.horizontalDragSection::-webkit-scrollbar-thumb
+{
+    background-color: var(--blackColor);
+    border-radius: 5px;
+}
+
+.featureHorizontalScroll
+{
+    width: 450px;
+    padding: 2rem 3rem;
+    flex-shrink: 0;
+    /* border: 2px solid red; */
+}
+.featureHorizontalScroll .imageDiv
+{
+    width: 150px;
+    position: relative;
+    margin: 4rem 0;
+}
+.featureHorizontalScroll img 
+{
+    width:150px;
+}
+.featureHorizontalScroll .imageDiv::after 
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 2px;
+    background-color: var(--blackColor);
+}
+
+.scrollContent h1
+{
+    margin: 0.5rem 0;
+}

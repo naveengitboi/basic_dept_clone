@@ -58,13 +58,7 @@ body::-webkit-scrollbar-thumb
   background-color: white;
   border-radius: 12px;
 }
-.horizontalLine
-{
-  margin: 1rem var(--leftRightPadding);
-  width: auto;
-  height: 1px;
-  background-color: var(--lightBlackColor);
-}
+
 :root
 {
   /* fontsizes */
@@ -97,6 +91,8 @@ body::-webkit-scrollbar-thumb
 .bigHeading
 {
   font-family: bigHeadingFont;
+  text-transform: uppercase;
+  line-height: 1;
   font-size: var(--bigHeading);
 }
 .headings
@@ -192,4 +188,18 @@ svg
   color: var(--whiteColor);
   cursor: pointer;
 
+}
+.horizontalLine
+{
+  margin: 0.25rem var(--leftRightPadding);
+  width: auto;
+  height: 1px;
+  background-color: var(--lightBlackColor);
+}
+.horizontalTextBelowLine
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 var(--leftRightPadding);
 }
