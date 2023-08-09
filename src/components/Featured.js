@@ -48,7 +48,7 @@ function Featured() {
         Featured <br /> Engagements
       </h1>
 
-      <div className="horizontalDragSection">
+      <div  className="horizontalDragSection">
         {featureContent.map((item, index) => (
           <div className="featureHorizontalScroll">
             <div className="imageDiv">
