@@ -50,7 +50,7 @@ function Featured() {
 
       <div  className="horizontalDragSection">
         {featureContent.map((item, index) => (
-          <div className="featureHorizontalScroll">
+          <div className="featureHorizontalScroll"> 
             <div className="imageDiv">
               <img src={item.featureImg} alt="" />
             </div>
