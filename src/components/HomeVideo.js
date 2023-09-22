@@ -9,7 +9,7 @@ function HomeVideo() {
     top: 0,
     left: 0,
   });
-  const [mouseLeave, setMouseLeave] = useState(false);
+  // const [mouseLeave, setMouseLeave] = useState(false);
 
   const handleMousePostion = (e) => {
     cursorSec.current.addEventListener("mousemove", (event) => {
@@ -36,7 +36,9 @@ function HomeVideo() {
       <div className="cursorStyling tinyTexts" style={{ ...mouseEnter }}>
         Watch Reel
       </div>
-      <video src={videoBg} autoPlay loop muted />
+      <video src={videoBg} autoPlay loop muted onClick={(event) => {
+        event.nativeEvent.target.muted = !event.nativeEvent.target.muted
+      }}/>
     </div>
   );
 }
