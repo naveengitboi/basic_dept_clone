@@ -4,13 +4,48 @@
     padding:0 var(--leftRightPadding);
     height: 100vh;
     
-    background-color: rgb(75, 65, 65);
+    background-color: var(--noiseBlackColor);
+    color: var(--pinkishColor);
+}
+.aboutusleftSection .biggerTexts::selection,
+.aboutusleftSection .smallPara::selection
+{
+    color: var(--noiseBlackColor);
+    background-color: var(--pinkishColor);
+
 }
 .aboutusleftSection
 {
     width: 50%;
+    padding: 2rem 0;
+}
+.aboutusleftSection .biggerTexts
+{
+    color: var(--pinkishColor);
+    line-height: 1;
+    
 }
 
+.aboutusleftSection p 
+{
+    margin:1rem 0 5rem 0;
+}
+
+.aboutusBtn 
+{
+    color: var(--pinkishColor);
+    border: 2px solid var(--pinkishColor);
+    padding: 0.5rem 1.5rem;
+    margin:0;
+    border-radius: 3rem;
+    transition: all 0.25s ease;
+}
+
+.aboutusBtn:hover 
+{
+    background-color: var(--pinkishColor);
+    color: var(--noiseBlackColor);
+}
 .aboutusrightSection
 {
     width: 50%;
