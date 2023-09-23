@@ -3,9 +3,27 @@
     display: flex;
     padding:0 var(--leftRightPadding);
     height: 100vh;
-    overflow-y: scroll;
+    
+    background-color: rgb(75, 65, 65);
 }
 .aboutusleftSection
 {
     width: 50%;
+}
+
+.aboutusrightSection
+{
+    width: 50%;
+    height:100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.aboutusrightSection::-webkit-scrollbar
+{
+    display: none;
+}
+.aboutusVideo
+{
+    width: 100%;
 }

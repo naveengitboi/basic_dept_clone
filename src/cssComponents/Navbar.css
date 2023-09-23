@@ -27,6 +27,37 @@
 {
     color: var(--blackColor);
 }
+.navLinks a::after 
+{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 0%;
+  height: 1.5px;
+}
+
+.navLinks a:hover::after
+{
+    width: 100%;
+  background-color: var(--noiseBlackColor);
+  animation: bottomBorder 0.25s ease;
+}
+@keyframes bottomBorder {
+  0%
+  {
+    left: 0%;
+  }
+  50%
+  {
+    left: 25%;
+  }
+  100%
+  {
+    left: 0%;
+  }
+
+}
 .hamBurgerMenu
 {
     cursor: pointer;

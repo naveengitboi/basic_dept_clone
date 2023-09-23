@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import '../cssComponents/Aboutus.css'
+import aboutVideo from '../assets/e4a840ba8dfeded08ac4d0ba6e930be56fc68e3b.mp4'
 function AboutUs(){
     return(
         <>
@@ -12,7 +13,9 @@ function AboutUs(){
 
                 <NavLink className="smallPara aboutusBtn">About Us</NavLink>
             </div>
-            <div className="aboutusrightSection"></div>
+            <div className="aboutusrightSection">
+                <video className="aboutusVideo" src={aboutVideo} autoPlay loop muted ></video>
+            </div>
         </div>
         </>
     )

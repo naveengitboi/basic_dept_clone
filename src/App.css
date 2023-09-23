@@ -145,37 +145,7 @@ a
   text-align: center;
   transition: all 0.85s ease;
 }
-a::after 
-{
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0%;
-  width: 0%;
-  height: 1.5px;
-}
 
-a:hover::after
-{
-    width: 100%;
-  background-color: var(--noiseBlackColor);
-  animation: bottomBorder 0.25s ease;
-}
-@keyframes bottomBorder {
-  0%
-  {
-    left: 0%;
-  }
-  50%
-  {
-    left: 25%;
-  }
-  100%
-  {
-    left: 0%;
-  }
-
-}
 svg
 {
   font-size: 1.85rem;
