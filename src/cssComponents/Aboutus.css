@@ -1,0 +1,11 @@
+.aboutusContainer
+{
+    display: flex;
+    padding:0 var(--leftRightPadding);
+    height: 100vh;
+    overflow-y: scroll;
+}
+.aboutusleftSection
+{
+    width: 50%;
+}

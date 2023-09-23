@@ -4,6 +4,7 @@ import HomeVideo from './components/HomeVideo'
 import Work from './components/Work'
 import {BsDot} from 'react-icons/bs'
 import Featured from './components/Featured'
+import AboutUs from './components/AboutUs'
 function Home() {
   return (
     <div className='homePage'>
@@ -19,6 +20,7 @@ function Home() {
     </div>
 
     <Featured/>
+    <AboutUs/>
     </div>
   )
 }

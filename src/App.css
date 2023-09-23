@@ -63,6 +63,7 @@ body::-webkit-scrollbar-thumb
 {
   /* fontsizes */
   --hugeHeading:15rem;
+  --biggerTexts:5.5rem;
   --bigHeading:3rem;
   --headings:2rem;
   --mediumPara:1.6rem;
@@ -87,6 +88,14 @@ body::-webkit-scrollbar-thumb
   font-family: hugeFontFam;
   font-size: var(--hugeHeading);
   color: var(--blackColor);
+
+}
+.biggerTexts
+{
+  font-family: hugeFontFam;
+  font-size: var(--biggerTexts);
+  color: var(--blackColor);
+    font-weight: normal;
 }
 .bigHeading
 {

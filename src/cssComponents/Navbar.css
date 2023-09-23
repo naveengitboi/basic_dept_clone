@@ -8,6 +8,7 @@
     padding: 2rem var(--leftRightPadding);
     transition: all 0.25s ease;
     z-index: 5;
+    
 }
 
 .mainLogo
@@ -39,4 +40,15 @@
 .addNavbarBg .mainLogo, .addNavbarBg .navLinks a, .addNavbarBg .hamBurgerMenu
 {
     color: inherit;
+}
+
+.hideNavbar
+{
+    transform: translateY(-150px);
+    transition: all 0.25s ease;
+}
+.showNavbar
+{
+    transform: translateY(0);
+    transition: all 0.25s ease;
 }
