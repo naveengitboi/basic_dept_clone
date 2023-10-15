@@ -5,6 +5,7 @@ import Work from './components/Work'
 import {BsDot} from 'react-icons/bs'
 import Featured from './components/Featured'
 import AboutUs from './components/AboutUs'
+import FeaturedNews from './components/FeaturedNews'
 function Home() {
   return (
     <div className='homePage'>
@@ -18,9 +19,9 @@ function Home() {
       <span>/05</span>
       <span><BsDot/></span>
     </div>
-
     <Featured/>
     <AboutUs/>
+    <FeaturedNews/>
     </div>
   )
 }
