@@ -24,10 +24,17 @@
 .newsImg
 {
     margin-right: 1rem;
+    overflow: hidden;
 }
 .newsImg img
 {
     width: 100%;
+    scale: 1.09;
+    transition: all 0.25s ease;
+}
+.newsContainer:hover img
+{
+    scale: 1.05;
 }
 .newsContent 
 {
@@ -57,10 +64,11 @@
     transition: all 0.25s ease;
     
 }
-.newsContent:hover .ncIcon
+.newsContainer:hover .ncIcon
 {
     transform: translateX(20px);
 }
+
 
 .pressText span
 {
