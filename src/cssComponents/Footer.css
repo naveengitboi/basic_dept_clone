@@ -1,0 +1,91 @@
+.footerContainer
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--lightBlackColor);
+    color: var(--whiteColor);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem var(--leftRightPadding);
+    position: relative;
+    gap: 30px;
+}
+
+.footerDiv h1
+{
+    color: var(--whiteColor);
+}
+.contactDiv
+{
+    text-transform: uppercase;
+}
+.contactDiv input
+{
+    width: 95%;
+    background-color: none;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    padding: 1rem 0;
+    border-bottom: 2px solid var(--grayColor);
+    outline: none;
+    color: var(--whiteColor);
+
+}
+.contactDiv input:active
+{
+    border: none;
+    outline: none;
+}
+.socialDiv 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.linksDiv 
+{
+    /* margin-right: 3rem; */
+    text-transform: uppercase;
+}
+.linksDiv .mediumPara
+{
+    margin-bottom: 1rem;
+}
+.linksDiv .names
+{
+    list-style-type: none;
+    line-height: 1.5;
+}
+.linksDiv .names li:hover
+{
+    text-decoration: underline;
+}
+
+.bootomSection
+{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5rem var(--leftRightPadding);
+    background-color: var(--noiseBlackColor);
+    color: var(--grayColor);
+    left: 0;
+}
+
+
+/* Laptop 1024px */
+
+@media screen and (max-width:1025px) {
+    .footerContainer
+    {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .socialDiv
+    {
+        flex-direction: column;
+    }
+}

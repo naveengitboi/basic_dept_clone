@@ -78,6 +78,7 @@ body::-webkit-scrollbar-thumb
   --lightBlackColor:#343331;
   --noiseBlackColor:#292826;
   --whiteColor:#efefef;
+  --grayColor:rgb(108, 108, 108);
 
   /* padding and margins */
   --leftRightPadding:4rem;
@@ -95,7 +96,7 @@ body::-webkit-scrollbar-thumb
   font-family: hugeFontFam;
   font-size: var(--biggerTexts);
   color: var(--blackColor);
-    font-weight: normal;
+  font-weight: normal;
 }
 .bigHeading
 {
@@ -181,4 +182,23 @@ svg
   justify-content: space-between;
   align-items: center;
   margin: 0 var(--leftRightPadding);
+}
+
+
+/* 1025px */
+
+@media screen and (max-width:1025px) {
+  :root
+{
+  /* fontsizes */
+  --hugeHeading:12.5rem;
+  --biggerTexts:4.58rem;
+  --bigHeading:2.5rem;
+  --headings:1.66rem;
+  --mediumPara:1.333rem;
+  --smallPara:0.83rem;
+  --tinyTexts:0.708rem;
+  --styleTexts:2.08rem;
+  --leftRightPadding:3.5rem;
+}
 }
