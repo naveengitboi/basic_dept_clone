@@ -1,16 +1,16 @@
 .workPage 
 {
     padding: 0rem var(--leftRightPadding);
-    /* border: 1px solid red; */
+    width: 100vw;
+    overflow: hidden;
+   
 }
-
 
 .workInfoContainer
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid red; */
 }
 .workInfo
 {
@@ -33,30 +33,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 150px;
-
+    width: 140px;
+    height: 140px;
 }
-
 .works
 {
     display: flex;
     justify-content: space-between;
     padding: 0;
     margin: 2rem 0 10rem;
-    /* border: 2px solid red; */
+
 
 }
 .worksImageContainer 
 {
     width: 100%;
-
-    margin:0 1rem;
+    margin:0 0rem;
 }
 .imageContainer
 {
-    height: 550px;
-    /* aspect-ratio: 3/4; */
+    height: 500px;
     overflow: hidden;
 }
 
@@ -74,6 +70,47 @@
 .workContent .mediumPara
 {
     text-transform: uppercase;
-    margin: 0.75rem 0 0.25rem;
+}
+@media screen and (max-width:1025px) {
+    .works
+    {
+       overflow: scroll;
+    }
 }
 
+@media screen and (max-width:769px) {
+    .works
+    {
+        margin: 2rem 0 5rem;
+    }
+    .workInfo p 
+{
+    margin-bottom: 2rem;
+}
+}
+
+@media screen and (max-width:426px) {
+    .workInfoContainer
+{
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+     border: 2px solid red;
+}
+.workInfo
+{
+    width: 100%;
+}
+.workInfo p 
+{
+    margin-bottom: 1.25rem;
+}
+.rIcon
+{
+    border-width: 10px;
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+}
+}

@@ -3,7 +3,6 @@
     display: flex;
     padding:0 var(--leftRightPadding);
     height: 100vh;
-    
     background-color: var(--noiseBlackColor);
     color: var(--pinkishColor);
 }

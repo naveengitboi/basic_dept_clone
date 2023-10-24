@@ -1,17 +1,15 @@
 .featuredContent
 {
-
+    width: 100vw;
     padding: 2rem var(--leftRightPadding);
+    overflow: hidden;
 }
 
 .horizontalDragSection
 {
-    width: 100vw;
-    /* height: 50vh; */
-    /* border: 2px solid red; */
+    /* width: 100vw; */
     display: flex;
     overflow-x: scroll;
-    /* height: 400px; */
     margin: 5rem 0;
     padding: 0rem var(--leftRightPadding);
   
@@ -21,11 +19,13 @@
     height: 5px;
     width: 50%;
     margin: 2rem 0;
+        cursor: pointer;
 }
 .horizontalDragSection::-webkit-scrollbar-thumb
 {
-    background-color: var(--blackColor);
+    background-color: var(--grayColor);
     border-radius: 5px;
+
 }
 
 .featureHorizontalScroll

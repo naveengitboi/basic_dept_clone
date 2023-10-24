@@ -74,3 +74,21 @@
 {
     font-weight: bold;
 }
+
+@media screen and (max-width:426px){
+    .feturedNewsContainer
+{
+    
+    padding: 2rem var(--leftRightPadding);
+}
+.newsContainer
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsContent 
+{
+    margin: 0.5rem 0;
+}
+}

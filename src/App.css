@@ -202,3 +202,35 @@ svg
   --leftRightPadding:3.5rem;
 }
 }
+
+@media screen and (max-width:769px) {
+  :root
+{
+  /* fontsizes */
+  --hugeHeading:10.5rem;
+  --biggerTexts:2.58rem;
+  --bigHeading:2.25rem;
+  --headings:1.45rem;
+  --mediumPara:1.1rem;
+  --smallPara:0.73rem;
+  --tinyTexts:0.608rem;
+  --styleTexts:1.85rem;
+  --leftRightPadding:3.5rem;
+}
+}
+
+@media screen and (max-width:426px) {
+  :root
+{
+  /* fontsizes */
+  --hugeHeading:9.5rem;
+  --biggerTexts:2.2rem;
+  --bigHeading:1.75rem;
+  --headings:1.25rem;
+  --mediumPara:1rem;
+  --smallPara:0.73rem;
+  --tinyTexts:0.608rem;
+  --styleTexts:1.5rem;
+  --leftRightPadding:1.25rem;
+}
+}
