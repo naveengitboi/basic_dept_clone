@@ -1,6 +1,6 @@
 import '../cssComponents/Footer.css'
 import { AiOutlineArrowRight } from "react-icons/ai";
-
+import {GoDotFill} from "react-icons/go"
 function Footer() {
   return (
     <div className="footerContainer" >
@@ -25,7 +25,7 @@ function Footer() {
 
         <div className="footerDiv socialDiv">
             <div className="linksDiv">
-                <h1 className="mediumPara">Social </h1>
+                <h1 className="mediumPara"> <GoDotFill/>Social </h1>
                 <ul className='names'>
                     <li className='smallPara'>Instagram</li>
                     <li className='smallPara'>Twitter(X)</li>
@@ -35,7 +35,7 @@ function Footer() {
             </div>
 
              <div className="linksDiv">
-                <h1 className="mediumPara">Initiatives </h1>
+                <h1 className="mediumPara"> <GoDotFill/>Initiatives </h1>
                 <ul className='names'>
                     <li className='smallPara'>crafted</li>
                     <li className='smallPara'>Applied(X)</li>
@@ -46,7 +46,7 @@ function Footer() {
             </div>
 
              <div className="linksDiv">
-                <h1 className="mediumPara">Offices</h1>
+                <h1 className="mediumPara"> <GoDotFill/>Offices</h1>
                 <ul className='names'>
                     <li className='smallPara'>San Diego -  CA</li>
                     <li className='smallPara'>New York - NY</li>

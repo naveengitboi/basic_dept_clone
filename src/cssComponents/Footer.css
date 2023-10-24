@@ -50,6 +50,8 @@
 .linksDiv .mediumPara
 {
     margin-bottom: 1rem;
+    display:flex;
+    align-items: center;
 }
 .linksDiv .names
 {
